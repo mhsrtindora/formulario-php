@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>A Cozinha da Vovó Teresa</title>
+</head>
+
+<body>
+    <h1>Formulário de inscrição para o curso de culinária da Vovó Teresa</h1>
+    <p>Preenchendo esse formulário você demonstra interesse em participar do mais novo curso de culinária que a vovó preparou!</p>
+
+    <div>
+        <form action="salvaDadosUsuario.php" method="POST">
+            <h3>Nome</h3>                        
+            <input type="text" name="nomeUsuario" placeholder="Insira aqui seu nome">
+            <br>
+            
+            <h3>Idade</h3>
+            <input type="number" name="idadeUsuario" placeholder="Insira aqui sua idade">
+            <br>
+            
+            <h3>Endereço</h3>
+            <input type="text" name="enderecoUsuario" placeholder="Insira aqui seu endereço">
+            <br>
+
+            <h3>Se defina da forma mais próxima possível:</h3>
+            <select name="experiencia">
+                <option value="1">Não cozinho</option>
+                <option value="2">Cozinho aos fins de semana</option>
+                <option value="3">Cozinho alguns dias da semana</option>
+                <option value="2">Cozinho todos os dias da semana</option>
+            </select>
+            <br>
+
+            <h3>Como você soube do curso?</h3>
+            <input type="radio" name="Radio1" value="1">Acompanhando a página
+            <br>
+            <input type="radio" name="Radio1" value="2">Procurei na internet e encontrei
+            <br>
+            <input type="radio" name="Radio1" value="3">Não procurei na internet e encontrei
+            <br>
+
+            <br>
+            <h3>Termo de Responsabilidade</h3>
+            <p>Declaro que li e concordo com todos os termos descritos.</p>
+            <input type="checkbox" name="checkbox1" value="1"> Sim
+            <br>
+            <input type="checkbox" name="checkbox1" value="2"> Não
+            <br>
+            <br>
+            <input type="submit" value="Enviar respostas" name="submit">
+            <br>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
